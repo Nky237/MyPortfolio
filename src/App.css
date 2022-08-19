@@ -1,0 +1,64 @@
+
+.tes{
+    border: 1px solid black;
+    height: 320px;
+    width: 100%;
+    background-color: #1F49C6;
+    text-align: center;
+    
+
+}
+footer{
+    background-color: #07102C;
+    width: 100%;
+    color:white;
+    text-align: center;
+    min-height: 100px;
+
+}
+.CertImg{
+    height: 200px;
+    
+}
+.ham{
+    display: none;
+}
+#hidden{
+    display:flex;
+}
+.formy{
+    width: 50%;
+    margin: auto;
+}
+.formy label, .formy textarea {
+    width: 80%;
+}
+.formy label input{
+    width: 80%;
+}
+.formy button{
+    width: 20%;
+    margin: 20px;
+
+}
+@media only screen and (max-width:560px){
+    .Navy{
+        font-size: 12px;
+    }
+    .ham{
+        display: flex;
+        font-size: 40px;
+    }
+    .linky{
+        display: none;
+    }
+    #hidden{
+       position: absolute;
+       left: 0;
+       top:0;
+        display: flex;
+        flex-direction: column;
+        transition:  0.7s ease-in-out;
+        
+    }
+}
