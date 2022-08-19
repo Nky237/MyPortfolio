@@ -15,7 +15,8 @@ import '../App.css'
 
 const About = () => {
   return (
-    <div className='mx-20 abouty'>
+    <div className='px-20 abouty'>
+        <div className='ser'>
         <h1 className='py-20 text-center' >THE SERVICES THAT I RENDER</h1>
        <div className='grid grid-rows-3 grid-flow-col gap-6 rend'>   
         <ServiceRend image = {Vec1} />
@@ -28,8 +29,9 @@ const About = () => {
         <ServiceRend image = {Vec8}/>
         <ServiceRend image = {Vec9}/>
     </div>
+    </div>
 
-      <h1 className='text-center pt-10'>CERTIFICATIONS</h1>
+      <h1 className=' pt-10'>CERTIFICATIONS</h1>
       <div className='grid grid-rows-3 grid-flow-col gap-6'>
         <Cert image = {Proj1} Text = {'A personal Project'}/>
         <Cert image = {Proj1} Text = {'A personal Project'}/>

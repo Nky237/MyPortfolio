@@ -6,7 +6,7 @@ import '../App.css'
  const Contact = () => {
   return (
   
-    <div>
+    <div className='formo'>
 
         <form className='ml-4 formy'>
           

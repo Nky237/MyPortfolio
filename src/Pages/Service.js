@@ -9,8 +9,8 @@ import Word from '../Images/Word.png'
 
 const Service = () => {
   return (
-    <div className='mx-20 skilly'>
-       <h2 className='pt-20 mt--20 pt-5 text-center'>MY SKILLS</h2>
+    <div className='px-20 skilly'>
+       <h2 className='pt-20  pt-5 text-center'>MY SKILLS</h2>
         <p className='text-center py-4'>Here are a few skills I posses</p>
 
            <div className='grid grid-rows-4 grid-flow-col gap-6'>

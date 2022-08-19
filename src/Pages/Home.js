@@ -15,8 +15,8 @@ import '../App.css'
 const Home = () => {
   return (
     <div className='mt-5 ml-5'>
-        <h1 className='font-black text-4xl'>JHENNA</h1>
-        <section className='py-7 my-7 flex justify-around land'>
+        <h1 className='font-black text-4xl heads'>JHENNA</h1>
+        <section className='py-7 flex justify-around land home'>
             <div className='text-center py-20 my-7 text-2xl font-black'>
                 <p>HI THERE </p>
                 <p>I AM EZIKE NKEMDILI</p>
@@ -31,8 +31,8 @@ const Home = () => {
         <About />
         <Projects />
 
-        <section className='flex justify-around tessy'>
-            <div className='tes'>
+        <section className='flex justify-around tessy px-20'>
+            <div className='tes mr-7'>
                 <h1 className='text-lg text-white mt-20 py-20'>Testimonies & Recommendations</h1>
             </div>
             <div className='grid grid-rows-2 grid-flow-col gap-4'>
