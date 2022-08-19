@@ -16,7 +16,7 @@ const About = () => {
   return (
     <div className='mx-20'>
         <h1 className='py-20 text-center' >THE SERVICES THAT I RENDER</h1>
-       <div className='grid grid-rows-3 grid-flow-col gap-6'>   
+       <div className='grid grid-rows-3 grid-flow-col gap-6 rend'>   
         <ServiceRend image = {Vec1} />
         <ServiceRend image = {Vec2} />
         <ServiceRend image = {Vec3} />

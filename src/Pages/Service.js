@@ -9,9 +9,9 @@ import Word from '../Images/Word.png'
 
 const Service = () => {
   return (
-    <div>
-       <h2 className='pt-20 mt--20 py-5'>MY SKILLS</h2>
-        <p>Here are a few skills I posses</p>
+    <div className='mx-20'>
+       <h2 className='pt-20 mt--20 pt-5 text-center'>MY SKILLS</h2>
+        <p className='text-center py-4'>Here are a few skills I posses</p>
 
            <div className='grid grid-rows-4 grid-flow-col gap-6'>
             <Servicebar image = {HTML} name = {'CSS'} />

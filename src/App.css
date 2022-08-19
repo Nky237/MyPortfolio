@@ -42,6 +42,31 @@ footer{
 
 }
 @media only screen and (max-width:560px){
+   .land{
+    display: flex;
+    flex-direction: column;
+   }
+   .land img{
+    margin-left: 30px;
+   }
+   .rend{
+    display: flex;
+    flex-direction: column;
+   }
+   .proj{
+    display: flex;
+    flex-direction: column;
+   }
+   .tessy{
+    display: flex;
+    flex-direction: column;
+   }
+   .formy{
+    width: 80%;
+   }
+   .formy button{
+    width: 50%;
+   }
     .Navy{
         font-size: 12px;
     }
