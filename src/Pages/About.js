@@ -11,10 +11,11 @@ import Vec8 from '../Images/Vec8.png'
 import Vec9 from '../Images/Vec9.png'
 import Cert from '../Components/Cert'
 import Proj1 from '../Images/Proj1.png'
+import '../App.css'
 
 const About = () => {
   return (
-    <div className='mx-20'>
+    <div className='mx-20 abouty'>
         <h1 className='py-20 text-center' >THE SERVICES THAT I RENDER</h1>
        <div className='grid grid-rows-3 grid-flow-col gap-6 rend'>   
         <ServiceRend image = {Vec1} />

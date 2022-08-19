@@ -42,7 +42,11 @@ footer{
 
 }
 @media only screen and (max-width:560px){
-   .land{
+   .projo, .abouty, .skilly{
+    margin-left: 0px;
+    margin-right: 0px;
+   }
+    .land{
     display: flex;
     flex-direction: column;
    }
