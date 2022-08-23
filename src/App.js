@@ -20,15 +20,16 @@ const App = () => {
       <Router>
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="/">JHENNA</Navbar.Brand>
+        <Navbar.Brand href="/" className='font-extrabold'>JHENNA</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav>
-          <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/About">About</Nav.Link>
-            <Nav.Link href="/Contact">Contacts</Nav.Link>
-            <Nav.Link href="/Projects"> Projects</Nav.Link>
-            <Nav.Link href="/Service">Services</Nav.Link>
+        <Navbar.Collapse id="responsive-navbar-nav" className='justify-center '>
+    
+          <Nav  >
+          <Nav.Link href="/" className='text-white mx-5'>Home</Nav.Link>
+            <Nav.Link href="/About" className='text-white'>About</Nav.Link>
+            <Nav.Link href="/Contact" className='text-white mx-5'>Contacts</Nav.Link>
+            <Nav.Link href="/Projects" className='text-white'> Projects</Nav.Link>
+            <Nav.Link href="/Service" className='text-white mx-5'>Services</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

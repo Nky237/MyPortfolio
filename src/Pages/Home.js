@@ -10,16 +10,18 @@ import Lady3 from '../Images/Lady3.png'
 import Lady4 from '../Images/Lady4.png'
 import Pic from '../Images/Image.jpg'
 import '../App.css'
+import Button from 'react-bootstrap/Button';
 
 
 const Home = () => {
   return (
-    <div className='mt-5 ml-5'>
+    <div>
         <section className='py-7 flex justify-around land home'>
             <div className='text-center py-20 my-7 text-2xl font-black'>
                 <p>HI THERE </p>
                 <p>I AM EZIKE NKEMDILI</p>
                 <h2>A FULLSTACK DEVELOPER AND A DATA ANALYST</h2>
+                <Button variant="dark" className='mx-10'>Know more</Button> 
             </div>
             <div>
               <img src={Pic} height = {200} width = {300} alt = 'Profile' />
@@ -30,7 +32,7 @@ const Home = () => {
         <About />
         <Projects />
 
-        <section className='flex justify-around tessy px-20'>
+        <section className='flex justify-around tessy pt-20 px-20'>
             <div className='tes mr-7'>
                 <h1 className='text-lg text-white mt-20 py-20'>Testimonies & Recommendations</h1>
             </div>

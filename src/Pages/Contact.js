@@ -1,39 +1,69 @@
 import React from 'react'
 import '../App.css'
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
 
 
 
  const Contact = () => {
   return (
   
-    <div className='formo'>
+    <div className='formo  py-20'>
+      <Form className='container'>
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>Email</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" />
+        </Form.Group>
 
-        <form className='ml-4 formy'>
-          
-            <h3 className='pt-20'>Send a message</h3>
-            <div className='border-solid border-2 border-black my-5   '>
-            <div  >
-            <label for = 'Name' className='ml-4 mt-3'>Name: <br />
-            <input type='text' className='border-solid border-2 border-black  ml-4' />
-            </label>
-            </div>
-        <div> 
-            <label for = 'email' className='ml-4 mt-3'>Email: <br />
-            <input type='email' className='border-solid border-2 border-black  ml-4'/>
-            </label>
-        </div>
-        <div >
-            <label for = 'state' className='ml-4 mt-3'>State: <br />
-            <input type='text' className='border-solid border-2 border-black ml-4' />
-            </label>
-            </div>
-        <div>
-            <p className='ml-4'>Message:</p>
-            <textarea rows={5} cols = {30} placeholder = 'enter your message' className='ml-4 border-solid border-2 border-black' /> 
-            </div>
-          <button type='button' className=' border-solid border-2 border-black my-4'>Send Message</button>
-          </div>
-        </form>
+        <Form.Group as={Col} controlId="formGridPassword">
+          <Form.Label>Password</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
+        </Form.Group>
+      </Row>
+
+      <Form.Group className="mb-3" controlId="formGridAddress1">
+        <Form.Label>Address</Form.Label>
+        <Form.Control placeholder="1234 Main St" />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formGridAddress2">
+        <Form.Label>Address 2</Form.Label>
+        <Form.Control placeholder="Apartment, studio, or floor" />
+      </Form.Group>
+
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridCity">
+          <Form.Label>City</Form.Label>
+          <Form.Control />
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="formGridState">
+          <Form.Label>State</Form.Label>
+          <Form.Select defaultValue="Choose...">
+            <option>Choose...</option>
+            <option>...</option>
+          </Form.Select>
+        </Form.Group>
+
+        <Form.Group as={Col} controlId="formGridZip">
+          <Form.Label>Zip</Form.Label>
+          <Form.Control />
+        </Form.Group>
+      </Row>
+
+      <Form.Group className="mb-3" id="formGridCheckbox">
+        <Form.Check type="checkbox" label="Check me out" />
+      </Form.Group>
+
+      <Button variant="primary" type="submit">
+        Submit
+      </Button>
+    </Form>
+
+        
     </div>
 
   

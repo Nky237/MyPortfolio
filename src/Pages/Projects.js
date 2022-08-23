@@ -12,7 +12,8 @@ import '../App.css'
 
 const Projects = () => {
   return (
-    <div className='projo px-20 mb-5'>
+    <div className='projo'>
+        <div className='container'>
         <h1 className='text-center pt-20 '>MY PROJECTS</h1>
         <div className='grid grid-rows-3 grid-flow-col gap-6 proj'>
         <Cert image = {Proj1} Text = {'A personal Project'}/>
@@ -24,6 +25,7 @@ const Projects = () => {
         <Cert image = {Youtube} Text = {'A youtube clone'}/>
         <Cert image = {Hire} Text = {'A business site'}/>
     </div>
+        </div>
     </div>
   )
 }

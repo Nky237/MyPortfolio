@@ -9,11 +9,12 @@ import Word from '../Images/Word.png'
 
 const Service = () => {
   return (
-    <div className='px-20 skilly'>
+    <div className='skilly'>
+       <div className = 'container'>
        <h2 className='pt-20  pt-5 text-center'>MY SKILLS</h2>
         <p className='text-center py-4'>Here are a few skills I posses</p>
 
-           <div className='grid grid-rows-4 grid-flow-col gap-6'>
+           <div className='grid grid-rows-4 grid-flow-col gap-6 skillo'>
             <Servicebar image = {HTML} name = {'CSS'} />
             <Servicebar image = {Java} name = {'Python'} />
             <Servicebar image = {Php} name = {'JavaScript'} />
@@ -23,6 +24,7 @@ const Service = () => {
             <Servicebar image = {Word} name = {'Bootsrap'} />
             <Servicebar image = {Php} name = {'HTML '} />
             </div> 
+            </div>
     </div>
   )
 }

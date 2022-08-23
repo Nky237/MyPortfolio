@@ -5,7 +5,15 @@
 .ser, .formo{
     background-color: #DBA9EE;
 } */
-
+.home, .formo{
+    background-image: linear-gradient(to right, #FFD5AF , #E59A58, #898970);
+}
+.skilly, .projo, .abouty, .tessy{
+    background-color: #FFD5AF;
+}
+.abouty, .projo, .tessy{
+    margin: auto;
+}
 .tes{
     border: 1px solid black;
     height: 320px;
@@ -55,11 +63,14 @@ footer{
 
 }
 @media only screen and (max-width:560px){
-   .projo, .abouty, .skilly, .tessy{
-    padding-left: 0px;
-    padding-right: 0px;
-   }
-    .land{
+    .abouty, .projo, .tessy{
+        padding-left: 0;
+        padding-right: 18px;
+    }
+    .tessy .tes{
+        margin-bottom: 40px;
+    }
+     .land{
     display: flex;
     flex-direction: column;
    }
@@ -84,8 +95,9 @@ footer{
    .formy button{
     width: 50%;
    }
-    .Navy{
-        font-size: 12px;
+    .skillo{
+        display: flex;
+        flex-direction: column;
     }
     
 }

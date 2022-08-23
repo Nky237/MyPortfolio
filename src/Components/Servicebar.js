@@ -4,7 +4,7 @@ import Bar from '../Images/Bar.png'
 const Servicebar = ({name, image}) => {
   return (
     <div className='flex'>
-       <div className='mx-5'>
+       <div>
         <img src = {image} alt = 'img' />
         </div>     
        <div>
