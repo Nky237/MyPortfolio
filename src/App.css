@@ -15,6 +15,12 @@
     
 
 }
+.Navyo{
+    display:flex;
+    justify-content: flex-end;
+    color: white;
+}
+
 footer{
     background-color: #07102C;
     width: 100%;
@@ -81,24 +87,5 @@ footer{
     .Navy{
         font-size: 12px;
     }
-    .ham{
-        display: flex;
-        font-size: 40px;
-    }
-    .linky{
-        display: none;
-    }
-    #hidden{
-       position: absolute;
-       left: 0;
-       top:0;
-        display: flex;
-        flex-direction: column;
-        transition:  0.7s ease-in-out;
-        
-        
-    }
-    .heads{
-        text-align: center;
-    }
+    
 }

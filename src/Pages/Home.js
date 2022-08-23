@@ -15,7 +15,6 @@ import '../App.css'
 const Home = () => {
   return (
     <div className='mt-5 ml-5'>
-        <h1 className='font-black text-4xl heads'>JHENNA</h1>
         <section className='py-7 flex justify-around land home'>
             <div className='text-center py-20 my-7 text-2xl font-black'>
                 <p>HI THERE </p>

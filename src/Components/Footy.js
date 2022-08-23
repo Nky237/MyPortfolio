@@ -9,7 +9,7 @@ import '../App.css'
 
 const Footy = () => {
   return (
-    <div className='w-full m-0'>
+    <div>
        <footer className='pt-4'>
         <div>
         <h2 className='text-center'>NKEMDILI JANE</h2>
@@ -18,8 +18,9 @@ const Footy = () => {
         < AiFillTwitterCircle className='m-3' />
         < CgMail className='m-3' />
         </div>
-        <p>copyright &copy;2021 | All rights Reserved</p>
+        <small>copyright &copy;2021 | All rights reserved</small>
     </div>
+    
         </footer> 
     </div>
   )
