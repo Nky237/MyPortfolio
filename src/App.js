@@ -25,11 +25,11 @@ const App = () => {
         <Navbar.Collapse id="responsive-navbar-nav" className='justify-center '>
     
           <Nav  >
-          <Nav.Link href="/" className='text-white mx-5'>Home</Nav.Link>
-            <Nav.Link href="/About" className='text-white'>About</Nav.Link>
-            <Nav.Link href="/Contact" className='text-white mx-5'>Contacts</Nav.Link>
-            <Nav.Link href="/Projects" className='text-white'> Projects</Nav.Link>
-            <Nav.Link href="/Service" className='text-white mx-5'>Services</Nav.Link>
+          <Nav.Link href="/" className='text-white mt-2 '>Home</Nav.Link>
+            <Nav.Link href="/About" className='text-white mt-2'>About</Nav.Link>
+            <Nav.Link href="/Contact" className='text-white mt-2'>Contacts</Nav.Link>
+            <Nav.Link href="/Projects" className='text-white mt-2'> Projects</Nav.Link>
+            <Nav.Link href="/Service" className='text-white mt-2'>Services</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

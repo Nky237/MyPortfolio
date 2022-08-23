@@ -32,17 +32,19 @@ const Home = () => {
         <About />
         <Projects />
 
-        <section className='flex justify-around tessy pt-20 px-20'>
+        <section className='flex justify-around tessy pt-20 px-20 '>
+            <div className='container flex tesco'>
             <div className='tes mr-7'>
                 <h1 className='text-lg text-white mt-20 py-20'>Testimonies & Recommendations</h1>
             </div>
-            <div className='grid grid-rows-2 grid-flow-col gap-4'>
+            <div className='grid grid-rows-2 grid-flow-col gap-4 pt-18'>
                 <Pro Image = {Lady1} text = {'Jenny Cral'} />
                 <Pro Image = {Lady2} text = {'John Cral'} />
                 <Pro Image = {Lady3} text = {'Ednjy Cral'}/>
                 <Pro Image = {Lady4} text = {'Swanza cook'} />
                 
            </div>
+            </div>
         </section>
         <Contact />
       
